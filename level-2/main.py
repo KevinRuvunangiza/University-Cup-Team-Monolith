@@ -1,5 +1,7 @@
 import json
 import math
+import sys
+sys.stdout.reconfigure(encoding="utf-8")
 
 # ── Load race data ─────────────────────────────────────────────────────────────
 race_data = json.load(open("level-2/level2.json"))
